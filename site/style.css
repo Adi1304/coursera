@@ -1,0 +1,16 @@
+*{box-sizing:border-box;}
+
+#1{background-color : blue
+border: 3px solid black;}
+
+#2{background-color : yellow
+border: 3px solid black;}
+
+#3{background-color : red
+border: 3px solid black;}
+
+#title{ border: 1px solid black;
+position:relative;
+top:0;
+right:0;
+}
