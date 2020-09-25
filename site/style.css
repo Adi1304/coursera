@@ -48,7 +48,4 @@ display:inline-block;}
 @media(max-width: 767px){
 	.mob{float:left;
 		width:95%;}
-}{
-	.mob{float:left;
-		width:100%;}
 }
