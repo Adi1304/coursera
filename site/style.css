@@ -1,17 +1,19 @@
-*{box-sizing:border-box;}
+* {box-sizing:border-box;}
 
 .row { width:100%; }
 
+body{background-color: lightgreen;}
+
+div{display:block;}
+
 .heading{ font-size: 175%;
 text-align: center; }
+.content{padding:10px;
+width:100%;}
 
 .min{border: 3px solid black;
 height:200px;
-margin:10px;
-padding:10px;
-position:relative;
-padding-top:45px;
-display:inline-block;}
+margin:10px;}
 
 .style1{ background-color:lightblue; }
 
@@ -20,13 +22,13 @@ display:inline-block;}
 .style3{ background-color:green; }
 
 .title{border: 1px solid black;
-	font-size:125%;
-	background-color:grey;
-	position:absolute;
-	bottom:141px;
-	right:0;
+	width:25%;
+	height:40px;
+	position: relative;
+	left:75.5%;
+    bottom: 1%;
 	padding:5px;
-	margin-right:0;
+	margin-right:2px;
 }
 
 .title1{background-color:#6495ED;}
