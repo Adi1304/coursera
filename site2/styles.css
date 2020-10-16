@@ -1,0 +1,28 @@
+*{box-sizing : border-box;}
+
+.nav-item{display:inline-block;}
+
+ul li a { text-align: center;
+border-bottom: 1px solid white ; }
+
+body { background-color: slateblue; }
+
+#heading{ text-align: center;
+margin-top:15px; }
+
+@media( min-width:768px)
+{
+	nav button { display: none; }
+}
+
+.my-col{margin-top: 20px;
+height: 3500px;}
+
+.mycontent{margin:10px;
+	padding:10px;
+	height:3450px;
+border:2px inset black;
+background-color:#8B008B; }
+
+.headingco1{ text-align: center;
+color: black; }
