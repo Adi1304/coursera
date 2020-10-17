@@ -1,8 +1,9 @@
+(function(window){var helloSpeaker = {};
 
-var helloSpeaker = {};
-(helloSpeaker.speak = function(name) {
-		var speakWord = "Hello";
-  if ( name!= undefined){
-  console.log(speakWord + " " + name);}
-})();
 
+var speakWord = "Hello";
+	helloSpeaker.speak = function(name) {
+  console.log(speakWord + " " + name);
+}
+window.helloSpeaker = helloSpeaker;
+})(window);
